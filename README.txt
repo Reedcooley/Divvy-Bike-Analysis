@@ -1,6 +1,6 @@
 # Divvy Bike-Share Analysis
 
-![Main Insight Chart](visualizations_simplified/pie_charts.png)
+![Main Insight Chart](visualizations/pie_charts.png)
 
 ## Project Overview
 This project analyzes Divvy bike-share data to identify behavioral differences between casual riders and annual members, revealing that:
