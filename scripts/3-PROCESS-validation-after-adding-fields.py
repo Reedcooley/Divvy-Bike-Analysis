@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the NEW enriched file
-file_path = '0-processed_ride_data.csv'
+file_path = 'processed-data/0-processed_ride_data.csv'
 print(f"Validating file: {file_path}")
 df = pd.read_csv(file_path)
 

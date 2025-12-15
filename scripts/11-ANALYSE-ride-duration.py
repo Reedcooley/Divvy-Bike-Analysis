@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the CLEANED file
-file_path = '4-processed_ride_data_with_speed_cleaned.csv'
+file_path = 'processed-data/0-processed_ride_data_with_speed_cleaned.csv'
 print(f"Loading {file_path}...")
 df = pd.read_csv(file_path)
 

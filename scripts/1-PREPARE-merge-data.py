@@ -3,7 +3,7 @@ import os
 import glob
 
 folder = "./data"  # change to your folder
-output_file = "0-combined_output.csv"
+output_file = "processed-data/0-combined_output.csv"
 
 csv_files = glob.glob(os.path.join(folder, "*.csv"))
 

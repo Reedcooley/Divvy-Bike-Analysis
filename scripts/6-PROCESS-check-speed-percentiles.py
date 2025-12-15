@@ -3,7 +3,7 @@ import numpy as np
 
 # Load the file
 df = pd.read_csv('0-' \
-'0-processed_ride_data_with_speed.csv')
+'processed-data/0-processed_ride_data_with_speed.csv')
 
 # Ensure we have speed
 # (If you are running this on the raw file, copy the speed calc logic here)

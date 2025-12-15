@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 # --- CONFIGURATION ---
-input_file = '0-processed_ride_data_with_speed_cleaned.csv'
+input_file = 'processed-data/0-processed_ride_data_with_speed_cleaned.csv'
 output_dir = 'visualizations'
 
 if not os.path.exists(output_dir):

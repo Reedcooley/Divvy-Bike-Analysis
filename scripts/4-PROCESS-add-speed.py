@@ -14,8 +14,8 @@ import numpy as np
 import os
 
 # --- CONFIGURATION ---
-input_file = '0-processed_ride_data.csv'
-output_file = '0-processed_ride_data_with_speed.csv'
+input_file = 'processed-data/0-processed_ride_data.csv'
+output_file = 'processed-data/0-processed_ride_data_with_speed.csv'
 
 def format_duration(td):
     """Formats timedelta to H:MM:SS"""

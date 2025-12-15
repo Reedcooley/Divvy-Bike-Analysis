@@ -12,8 +12,8 @@ import pandas as pd
 import numpy as np
 import os
 
-input_file = '0-processed_ride_data_with_speed.csv'
-output_file = '0-processed_ride_data_with_speed_cleaned.csv'
+input_file = 'processed-data/0-processed_ride_data_with_speed.csv'
+output_file = 'processed-data/0-processed_ride_data_with_speed_cleaned.csv'
 
 # STRICT THRESHOLD (Safe because 99% of data is < 26.2 km/h)
 SPEED_THRESHOLD_KMH = 32.0 

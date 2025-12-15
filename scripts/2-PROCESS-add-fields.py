@@ -30,8 +30,8 @@ import numpy as np
 import os
 
 # --- CONFIGURATION ---
-input_file = '0-combined_output.csv'
-output_file = '0-processed_ride_data.csv'
+input_file = 'processed-data/0-combined_output.csv'
+output_file = 'processed-data/0-processed_ride_data.csv'
 
 def format_duration(td):
     """

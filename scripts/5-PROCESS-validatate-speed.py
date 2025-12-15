@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = '0-processed_ride_data_with_speed.csv'
+file_path = 'processed-data/0-processed_ride_data_with_speed.csv'
 print(f"Validating file: {file_path}")
 df = pd.read_csv(file_path)
 
